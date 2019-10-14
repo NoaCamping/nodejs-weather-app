@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Weather</title>
+    <link rel="icon" href="https://cdn.pixabay.com/photo/2018/04/20/09/49/sky-3335585__340.jpg">
+    <link rel="stylesheet" href="/css/styles.css">
+    
+</head>
+<body>
+    <div class="main-content">
+        {{>header}}
+
+        <form>
+            <input placeholder="Location">
+            <button>Search</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+    </div>
+    {{>footer}}
+    <script src="/js/app.js"></script>
+</body>
+</html>
